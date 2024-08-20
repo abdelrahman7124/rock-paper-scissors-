@@ -10,7 +10,6 @@ class Player:
         self.scoreInt += score
     def generateRandomNumber(self):
         self.rand = random.randrange(1, 4)
-        return self.rand
     
 def Win(Player):
     Player.scoreAppend(1)
